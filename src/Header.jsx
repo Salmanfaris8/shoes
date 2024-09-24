@@ -1,12 +1,13 @@
 import React from 'react'
 import './Header.css'
+import shape from '../src/assets/shape.png'
 
 const Header = () => {
   return (
     <div>
       <header>
         <div class="logo">
-        <img width={'50px'} src="./src/assets/shape.png" alt="" />
+        <img width={'50px'} src={shape} alt="" />
         Velora</div>
         <nav>
             <ul>
