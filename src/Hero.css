@@ -1,0 +1,59 @@
+.hero {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.hero h1 {
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 24px;
+    margin-bottom: 30px;
+    padding: 0px 40px;
+}
+
+.btn-primary {
+    text-decoration: none;
+    padding: 12px 30px;
+    background-color: #434040;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-left: -20px;
+}
+
+@media(max-width:1200px){
+    .shoe1{
+        width: 150px;
+    }
+    .shoe2{
+        width: 150px;
+    }
+}
+@media (max-width: 768px){
+    .shoe1{
+        width: 120px;
+    }
+    .shoe2{
+        width: 120px;
+    }
+}
+@media (max-width:480px){
+    .shoe1{
+        display: none;
+    }
+    .shoe2{
+        display: none;
+    }
+    .hero p{
+        display: none;
+    }
+}

@@ -1,0 +1,41 @@
+#subscribe {
+    padding: 60px;
+    text-align: center;
+}
+
+#subscribe h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+#subscribe p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+#subscribe input {
+    padding: 12px;
+    font-size: 16px;
+    width: 250px;
+    margin-right: 10px;
+    border-radius: 15px;
+    border: none;
+}
+
+#subscribe button {
+    padding: 15px;
+    background-color: #ff6347;
+    border: none;
+    border-radius: 15px;
+    color: white;
+    cursor: pointer;
+}
+@media(max-width:480px){
+    #subscribe {
+        padding: 5px;
+        margin-bottom: 30px;
+    }
+    #subscribe button{
+        margin-top: 10px;
+    }
+}
